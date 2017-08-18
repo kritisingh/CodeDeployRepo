@@ -2,15 +2,15 @@ version: 0.0
 os: linux
 
 files:
-  - source: files/newpage.html
+  - source: files/mypage.html
     destination: /var/www/html
 
-permissions:
-  - object: /var/www/html
-    pattern: newpage.html
-    mode: 755
-    type:
-      - file
+#permissions:
+ # - object: /var/www/html
+  #  pattern: mypage.html
+   # mode: 755
+    #type:
+     # - file
 
 hooks:
   BeforeInstall:
