@@ -2,15 +2,7 @@ version: 0.0
 os: linux
 
 files:
-<<<<<<< HEAD
-<<<<<<< HEAD
   - source: /
-=======
-  - source: files/
->>>>>>> 9932cb033dc8c9c3b8678d7348b30e922cfe0879
-=======
-  - source: /
->>>>>>> 4e62a9c1679d58b5756e54e5862967b320ad7092
     destination: /var/www/html
 
 permissions:
