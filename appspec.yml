@@ -1,13 +1,15 @@
 version: 0.0
 os: linux
 
-#files:
- # - source: /
-  #  destination: /var/www/html
+files:
+  - source: files/
+    destination: /var/www/html/node-ang-app
 
 permissions:
-    - object: /var/www/html
+    - object: /var/www/html/node-ang-app
       mode: 755
+      owner: apache
+      group: apache
       type:
        - directory
 
